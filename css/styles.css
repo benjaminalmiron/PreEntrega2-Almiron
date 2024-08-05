@@ -814,3 +814,9 @@ header{
 
 }
 
+@media(max-width:899px){
+    
+    .año{
+        text-align: center;
+    }
+}
