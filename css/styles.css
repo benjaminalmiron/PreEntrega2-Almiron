@@ -7,21 +7,29 @@
     box-sizing: border-box
 }
 
-
-header{
+.bg-mio{
     background-color: #841212;
-    height: 4.6875rem;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 1.875rem;
-    width: 100%;
 }
 
+.navbar-brand{
+    font-size: 1.875rem;
+    font-family: "Patua One", serif;;
+}
+
+.nav-link{
+    color: black;
+}
 .navbar li a:hover{
     color: white;
     text-decoration: underline;
+}
+
+a.nav-link.active:hover{
+    color: white;
+}
+
+a.navbar-brand:hover{
+    color: white;
 }
 
 header div a:hover{
@@ -69,6 +77,7 @@ body{
 body header nav ul  li{
     font-family: "Patua One", serif;;
     font-size: 1.875rem;
+    
 }
 
 main section p{
@@ -80,8 +89,6 @@ main section p{
 .footer-index li a:hover{
     color: white;
 }
-
-
 
 
 
@@ -216,20 +223,23 @@ parrafos font-family: "Patua One", serif; */
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(2,37.5rem);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(2,350px);
     padding-top: 3.125rem;
     padding-bottom: 6.25rem;
-    object-fit: contain;
     gap: 10px;
     align-content: center;
     justify-content: center;
-    grid-template-areas: none
-    "iframe1 iframe2"
-    "iframe3 iframe4"    
     
-    ;
 }
+
+.grid iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
 .h1-videos{
     text-align: center;
      ;
@@ -354,6 +364,18 @@ input::placeholder{
     
 }
 
+@media(max-width:986px){
+    
+    .navbar-brand{
+        font-size: 25px;
+    }
+    .nav-item{
+        font-size: 25px;
+
+    }
+}
+
+
 
 @media (max-width:932px) {
     .orden{
@@ -389,6 +411,13 @@ input::placeholder{
         justify-content: center;
 
 }
+}
+
+@media(max-width:370px){
+
+    .navbar-brand{
+        font-size: 1.25rem;
+    }
 }
 
 
@@ -438,17 +467,19 @@ input::placeholder{
 
 @media (max-width:550px) {
     
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .nav-item{
+        font-size: 18px;
+    }
+
     .titulo-index{
 
         text-align: center;
         margin: 0;
     }
-    header{
-        display: flex;
-        flex-direction: colu;
-        padding: 1.25rem;
-        
-    }
+    
 
     .biografia{
         text-align: center;
@@ -599,10 +630,7 @@ input::placeholder{
 
 @media(max-width:1025px){
 
-    header{
-
-        padding-right: 20px;
-    }
+    
 
 }
 
@@ -634,11 +662,14 @@ input::placeholder{
         padding-bottom: 5rem;
     }
 
-    header{
-        display: flex;
-        flex-direction: colu;
-        padding: 1.25rem;
-        
+    
+
+    .navbar-brand{
+        font-size: 1.25rem;
+    }
+    
+    .nav-item{
+        font-size: 18px;
     }
 
     .THE-WEEKND-MENU{
@@ -748,6 +779,16 @@ input::placeholder{
             
             
         }
+    
+        .navbar-brand{
+            font-size: 1.125rem;
+
+        }
+    
+        .nav-item{
+            font-size: 1rem;
+        }
+    
     }
 
 @media(max-width:429px){
@@ -889,3 +930,53 @@ header{
     }
 
 }
+
+@media(max-width:1203px){
+
+    .grid{
+        grid-template-columns: repeat(2,500px);
+    }
+}
+
+@media(max-width:1024px){
+    .grid{
+        grid-template-columns: repeat(2,450px);
+        grid-template-rows: repeat(2,240px);
+    }
+    
+}
+
+@media(max-width:1015px){
+
+    .grid{
+        grid-template-columns: repeat(2,400px);
+        grid-template-rows: repeat(2,200px);
+    }
+
+}
+
+@media(max-width:817px){
+
+    .grid{
+        grid-template-columns: repeat(2,350px);
+    }
+}
+
+@media(max-width:713px){
+
+    .grid{
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2,160px);
+    }
+}
+
+@media(max-width:617px){
+
+    .grid{
+
+        grid-template-columns: repeat(2,15.625rem);
+        grid-template-rows: repeat(2,140px);
+    }
+}
+
+@media(max-width:512px){}
