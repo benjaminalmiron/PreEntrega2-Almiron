@@ -1,0 +1,58 @@
+
+.bg-mio{
+    background-color: #841212;
+}
+
+.navbar-brand{
+    font-size: 1.875rem;
+    font-family: "Patua One", serif;;
+}
+
+.nav-link{
+    color: black;
+}
+.navbar li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+a.nav-link.active:hover{
+    color: white;
+}
+
+a.navbar-brand:hover{
+    color: white;
+}
+
+header div a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.menu1{
+    text-decoration: none;
+    color: black;
+    font-family: "Patua One", serif;;
+    font-size: 1.875rem;
+    padding: 30px;
+}
+
+body{
+    background-image: url("../assets/img/baclground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    min-height: 100vh;
+
+    header nav ul  li{
+        font-family: "Patua One", serif;;
+        font-size: 1.875rem;
+        
+    }
+
+}
+
+
+
+
+

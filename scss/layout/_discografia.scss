@@ -1,0 +1,39 @@
+.discografia-h1{
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+.p-discografia{
+    padding-left: 4.375rem;
+    font-size: 1.875rem;
+}
+
+.discos{
+    display: flex;
+    justify-content: space-around ;
+    object-fit: contain;
+    flex-wrap: wrap ;
+    
+    
+
+}
+
+.Discos-escuchados{
+    font-size: 2.5rem;
+    padding-left: 6.25rem;
+}
+
+.año{
+    text-align: center;
+}
+
+.Discografia{
+    font-size: 1.875rem;
+}
+
+.discografia-footer{
+    bottom: 0;
+    width: 100%;
+    
+}

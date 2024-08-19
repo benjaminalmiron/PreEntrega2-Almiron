@@ -1,0 +1,72 @@
+@media(max-width:899px){
+    
+    .año{
+        text-align: center;
+    }
+
+    
+
+    .discografia-footer{
+        position: relative;
+    }
+
+    .p-discografia{
+        text-align: center;
+        padding: 0;
+    }   
+
+    .Discos-escuchados{
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media(max-width:639px){
+
+    .discografia-h1{
+        font-size: 5rem;
+
+    }
+    .p-discografia{
+        font-size: 1.4375rem;
+    }
+
+    .Discos-escuchados{
+        font-size: 2.25rem;
+    }
+
+    .año{
+        font-size: 1.25rem;
+    }
+}
+
+
+@media(max-width:599px){
+
+        .discos{
+            gap: 3.75rem;
+        }
+        .discografia-h1{
+            font-size: 5rem;
+        }
+        .p-discografia{
+            font-size: 1.25rem;
+        }
+    }
+@media(max-width:515px){
+
+    .p-discografia{
+        font-size: 1.125rem;
+    }
+
+    .discografia-h1{
+        font-size: 3.75rem;
+    }
+    .Discos-escuchados{
+        font-size: 1.875rem;
+    }
+    .año{
+        font-size: 1rem;
+    }
+
+}

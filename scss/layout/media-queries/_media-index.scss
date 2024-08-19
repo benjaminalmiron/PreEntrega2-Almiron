@@ -1,0 +1,268 @@
+@media (max-width:1024px){
+    .titulo-index{
+        font-size: 4.375rem;
+    }
+    .biografia{
+        font-size: 1rem;
+    }
+
+    .section-index{
+        gap: 3.125rem;
+    }
+
+    
+}
+
+@media(max-width:986px){
+    
+    .navbar-brand{
+        font-size: 25px;
+    }
+    .nav-item{
+        font-size: 25px;
+
+    }
+}
+
+
+
+@media (max-width:932px) {
+    .orden{
+       gap: 20px;
+        
+    }
+
+    .THE-WEEKND-MENU{
+        margin: 0;
+        left: 30px;
+    }
+    
+    .img-index{
+        width: 18.75rem;
+    }
+}
+
+@media (max-width:868px){
+
+    .header{
+        align-content: flex-end;
+
+    }
+    .orden{
+        align-content: flex-end;
+        
+    }
+
+    .THE-WEEKND-MENU{
+        display: inline;
+        top: 0px;
+        left: 20.25rem;
+        justify-content: center;
+
+}
+}
+
+@media(max-width:370px){
+
+    .navbar-brand{
+        font-size: 1.25rem;
+    }
+}
+
+
+
+
+@media (max-width:860px) {
+
+    .img-index{
+        width: 16.25rem;
+    }
+
+}
+
+@media (max-width:804px){
+    .biografia{
+        font-size: .9375rem;
+    }
+}
+
+@media (max-width:768px){
+
+    .footer-index{
+        height: 3.125rem;
+    }
+    .biografia{
+        margin-top: 1.25rem;
+    }
+
+    .section-index{
+        gap: 1.25rem;
+    }
+
+    
+
+}
+
+@media (max-width:595px) {
+
+    .img-index{
+        width: 220px;
+    }
+    .biografia{
+        width: 200px;
+        font-size: .8125rem;
+    }
+}
+
+@media (max-width:550px) {
+    
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .nav-item{
+        font-size: 18px;
+    }
+
+    .titulo-index{
+
+        text-align: center;
+        margin: 0;
+    }
+    
+
+    .biografia{
+        text-align: center;
+        justify-content: center;
+        margin: 20px;
+        width: 200px;
+    }
+
+    .section-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-index{
+    object-fit: contain;
+    margin-right: 1.25rem;
+    padding-bottom: .625rem;
+    width: 15.625rem;
+    height: 18.75rem;
+}
+}
+
+@media (max-width:474px){
+
+    .THE-WEEKND-MENU{
+        padding-top: 3.125rem;
+        font-size: 20px;
+    
+    }
+
+   .home{
+    font-size: 1.25rem;
+   }
+
+   .tour1{
+    font-size: 1.25rem;
+   }
+   .discografia1{
+    font-size: 1.25rem;
+   }
+
+   .videos1{
+    font-size: 20px;
+
+   }
+
+ .contacto1{
+    font-size: 1.5625rem;
+ }
+
+}
+
+
+
+
+@media (max-width:425px){
+
+
+    
+
+
+    .navbar{
+        font-size: 1.25rem;
+    }
+
+    .THE-WEEKND-MENU{
+        
+        left: 1.875rem;
+            font-size: 20px;
+            margin: 0;
+        
+    }
+
+    .titulo-index{
+        text-align: center;
+        font-size: 50px;
+        margin: 1.875rem;
+    }
+
+    .biografia{
+        text-align: center;
+        margin: 1.875rem;
+    }
+
+
+    .section-index{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-index{
+        object-fit: contain;
+        margin-right: 1.25rem;
+        padding-bottom: .625rem;
+        width: 15.625rem;
+        height: 18.75rem;
+    }
+
+    .THE-WEEKND-MENU{
+        position: 30px;
+        
+    }
+
+}
+
+
+@media(max-width:375px){
+    
+    
+    .THE-WEEKND-MENU{
+        
+        padding: 0;
+        margin-top: 50px;
+        margin-right: 40px;       
+        
+        
+        
+        
+    }
+}
+
+@media(max-width:320px){
+
+    .THE-WEEKND-MENU{
+        margin: 0;
+        left: 1.875rem;
+        top: 5.3125rem;    
+    }
+
+    .img-index{
+        margin: 0;
+    }
+
+}

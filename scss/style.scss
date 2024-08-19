@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patua+One&display=swap');
+
+
+$color-fondo: #841212;
+
+@import "./utilities/mixin";
+@import "./layout/header-nav";
+@import "./layout/main.index";
+@import "./layout/footer";
+
+@import "./layout/tour";
+
+@import "./layout/discografia";
+@import "./layout/videos";
+@import "./layout/contacto";
+
+@import "./layout/media-queries/media-index";
+@import "./layout/media-queries/media-tour";
+@import "./layout/media-queries/media-discografia";
+@import "./layout/media-queries/media-videos";
+@import "./layout/media-queries/media-contacto"

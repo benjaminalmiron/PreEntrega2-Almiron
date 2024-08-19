@@ -1,982 +1,699 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patua+One&display=swap');
-
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patua+One&display=swap");
+.bg-mio {
+  background-color: #841212;
 }
 
-.bg-mio{
-    background-color: #841212;
+.navbar-brand {
+  font-size: 1.875rem;
+  font-family: "Patua One", serif;
 }
 
-.navbar-brand{
-    font-size: 1.875rem;
-    font-family: "Patua One", serif;;
+.nav-link {
+  color: black;
 }
 
-.nav-link{
-    color: black;
-}
-.navbar li a:hover{
-    color: white;
-    text-decoration: underline;
+.navbar li a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
-a.nav-link.active:hover{
-    color: white;
+a.nav-link.active:hover {
+  color: white;
 }
 
-a.navbar-brand:hover{
-    color: white;
+a.navbar-brand:hover {
+  color: white;
 }
 
-header div a:hover{
-    color: white;
-    text-decoration: underline;
+header div a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
-.menu1{
-    text-decoration: none;
-    color: black;
-    font-family: "Patua One", serif;;
-    font-size: 1.875rem;
-    padding: 30px;
+.menu1 {
+  text-decoration: none;
+  color: black;
+  font-family: "Patua One", serif;
+  font-size: 1.875rem;
+  padding: 30px;
 }
 
-
-body header nav ul li{
-    display: inline
+body {
+  background-image: url("../assets/img/baclground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+body header nav ul li {
+  font-family: "Patua One", serif;
+  font-size: 1.875rem;
 }
 
-ul{
-    list-style: none;
+main section h3 {
+  color: #A5A5A5;
+  font-size: 1.5625rem;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.875rem;
 }
 
-ul li a{
-    text-decoration: none;
-    color: black;
+main section p {
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+  font-family: "Patua One";
+  font-weight: lighter;
 }
 
-main section h3{
-    color: #A5A5A5;
-    font-size: 1.5625rem;
-    font-family: "Patrick Hand", cursive;
-    font-size: 1.875rem;
+main section h1 {
+  color: #A5A5A5;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Patrick Hand", cursive;
+  font-size: 6.25rem;
 }
 
-body{
-    background-image: url("../assets/img/baclground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover ;
-    background-position: center;
-    min-height: 100vh;
+.titulo-index {
+  font-family: "Patrick Hand", cursive serif;
+  margin-left: 6.25rem;
+  margin-top: 1.875rem;
 }
 
-body header nav ul  li{
-    font-family: "Patua One", serif;;
-    font-size: 1.875rem;
-    
+.section-index {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-main section p{
-    font-size: 2rem;
-    text-align:left;
-    color: white;
+.biografia {
+  text-align: left;
+  font-size: 1.25rem;
+  margin-left: 6.25rem;
+  margin-top: 45px;
 }
 
-.footer-index li a:hover{
-    color: white;
+.img-index {
+  width: 21.875rem;
+  height: 39.5rem;
+  margin-right: 6.25rem;
+  margin-top: 2.5rem;
+  object-fit: contain;
 }
 
-
-
-    section  p{
-        font-family: "Patua One";
-        font-weight: lighter ;
-        
-    }
-
-
-main section h1{
-    color: #A5A5A5;
-    text-align: left;
-    text-transform: uppercase;
-    font-family: "Patrick Hand", cursive;
-    font-size: 6.25rem;
-}
-.titulo-index{
-    font-family: "Patrick Hand", cursive serif;;
-    margin-left: 6.25rem;
-    margin-top: 1.875rem;
-    
+.footer-index {
+  width: 100%;
+  bottom: 0;
 }
 
-.section-index{
-    display: flex;
-    justify-content: space-between;
+footer ul li {
+  display: inline;
+}
+
+footer {
+  background-color: #841212;
+  height: 4.6875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.img-tour {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  object-fit: contain;
+  height: 300px;
+}
+.img-tour .h1-tour {
+  text-align: left;
+  font-size: 5rem;
+  padding-left: 6.25rem;
+}
+
+.fechas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  padding: 30px;
+  bottom: 230px;
+  width: 150px;
+  color: black;
+  font-family: "Patua One", serif;
+  background-color: #841212;
+  object-fit: contain;
+}
+button button:active {
+  background-color: blue;
+}
+
+.tour-foote {
+  bottom: 0%;
+  width: 100%;
+}
+
+.discografia-h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.p-discografia {
+  padding-left: 4.375rem;
+  font-size: 1.875rem;
+}
+
+.discos {
+  display: flex;
+  justify-content: space-around;
+  object-fit: contain;
+  flex-wrap: wrap;
+}
+
+.Discos-escuchados {
+  font-size: 2.5rem;
+  padding-left: 6.25rem;
+}
+
+.año {
+  text-align: center;
+}
+
+.Discografia {
+  font-size: 1.875rem;
+}
+
+.discografia-footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(2, 350px);
+  padding-top: 3.125rem;
+  padding-bottom: 6.25rem;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+.grid iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.h1-videos {
+  text-align: center;
+}
+
+.youtube {
+  margin-left: 1.25rem;
+}
+
+.h3-videos {
+  font-size: 3.125rem;
+  margin-top: 2.5rem;
+  margin-left: 1.25rem;
+}
+
+.contactos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+  gap: 30px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-size: 20px;
+  gap: 10px;
+  color: white;
+}
+
+.boton {
+  width: 100px;
+  align-self: center;
+}
+
+.formulñario {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.telefono {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+input:focus {
+  background-color: #841212;
+}
+
+input::placeholder {
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .titulo-index {
+    font-size: 4.375rem;
+  }
+  .biografia {
+    font-size: 1rem;
+  }
+  .section-index {
+    gap: 3.125rem;
+  }
+}
+@media (max-width: 986px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .nav-item {
+    font-size: 25px;
+  }
+}
+@media (max-width: 932px) {
+  .orden {
     gap: 20px;
+  }
+  .THE-WEEKND-MENU {
+    margin: 0;
+    left: 30px;
+  }
+  .img-index {
+    width: 18.75rem;
+  }
 }
-
-
-.biografia{
-
-    text-align: left;
-    font-size: 1.25rem;
-    margin-left: 6.25rem;
-    margin-top: 45px;    
-    }
-
-.img-index{
-    width: 21.875rem;
-    height:  39.5rem;
-    margin-right: 6.25rem;
-    margin-top: 2.5rem ;
-    object-fit: contain;
-        
-    }
-    
-
-
-
-
-.footer-index{
-    width: 100%;
-    bottom: 0;
-}
-
-/*   Tour */
-
-.img-tour{
-   display: flex;
-   justify-content: center;
-   padding: 1.25rem;
-   object-fit: contain;
-   height: 300px;
-   
-}
-
-
-
-.h1-tour{
-
-    text-align: left;
-    font-size: 5rem;
-    padding-left: 6.25rem;
-}
-
-.fechas{
-    display: flex;
-    align-items: center;
-    justify-content: space-around ;
-    
-}
-
-.tour-foote{
-    bottom: 0%;
-    width: 100%;
-}
-
-
-
-.discografia-h1{
-    text-align: center;
-    
-}
-
-.p-discografia{
-    padding-left: 6.25rem;
-}
-
-.discos{
-    display: flex;
-    justify-content: space-around ;
-    object-fit: contain;
-    flex-wrap: wrap ;
-}
-
-.Discos-escuchados{
-    font-size: 2.5rem;
-    padding-left: 6.25rem;
-}
-
-.año{
-    text-align: center;
-}
-
-.Discografia{
-    font-size: 1.875rem;
-}
-
-.discografia-footer{
-    bottom: 0;
-    width: 100%;
-}
-
-
-
-/*   titulos font-family: "Patrick Hand", cursive;, serif;
-parrafos font-family: "Patua One", serif; */
-
-/*  VIDEOS */
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 600px);
-    grid-template-rows: repeat(2,350px);
-    padding-top: 3.125rem;
-    padding-bottom: 6.25rem;
-    gap: 10px;
-    align-content: center;
-    justify-content: center;
-    
-}
-
-.grid iframe{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-
-.h1-videos{
-    text-align: center;
-     ;
-}
-
-.youtube{
-    margin-left: 1.25rem;
-}
-
-.h3-videos{
-    font-size: 3.125rem;
-    margin-top: 2.5rem;
-    margin-left: 1.25rem;
-}
-
-
-
-main section p{
-    font-size: 1.875rem;
-
-    
-}
-footer ul li{
+@media (max-width: 868px) {
+  .header {
+    align-content: flex-end;
+  }
+  .orden {
+    align-content: flex-end;
+  }
+  .THE-WEEKND-MENU {
     display: inline;
-}
-
-
-button{
-    padding: 30px;
-    bottom: 230px;
-    width: 150px;
-    color: black;
-    font-family:"Patua One", serif;
-    background-color: #841212;
-    object-fit: contain;
-}
-
-button:active{
-    background-color: blue;
-}
-
-
-footer{
-    background-color: #841212;
-    height: 4.6875rem;
-    display: flex;
-    align-items: center;
+    top: 0px;
+    left: 20.25rem;
     justify-content: center;
-    position: fixed;
+  }
 }
-
-.galeria{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-decoration: none;
-    list-style: none;
+@media (max-width: 370px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
 }
-
-.img-galeria{
-    padding-top: 20px;
+@media (max-width: 860px) {
+  .img-index {
+    width: 16.25rem;
+  }
 }
-
-
-.contactos{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 100px;
-    gap: 30px;
-    
+@media (max-width: 804px) {
+  .biografia {
+    font-size: 0.9375rem;
+  }
 }
-
-
-
-.display{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+@media (max-width: 768px) {
+  .footer-index {
+    height: 3.125rem;
+  }
+  .biografia {
+    margin-top: 1.25rem;
+  }
+  .section-index {
+    gap: 1.25rem;
+  }
+}
+@media (max-width: 595px) {
+  .img-index {
+    width: 220px;
+  }
+  .biografia {
+    width: 200px;
+    font-size: 0.8125rem;
+  }
+}
+@media (max-width: 550px) {
+  .navbar-brand {
     font-size: 20px;
-    gap: 10px;
-    color: white;
-    
-}
-
-.boton{
-    width: 100px;
-    align-self: center;
-}
-
-.formulñario{
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+  }
+  .nav-item {
+    font-size: 18px;
+  }
+  .titulo-index {
     text-align: center;
-    
-}
-
-.telefono{
-    margin-left: 100px;
-    margin-top: 100px;
-}
-
-input:focus{
-    background-color: #841212;
-}
-input::placeholder{
-    color: black;
-}
-
-@media (max-width:1024px){
-    .titulo-index{
-        font-size: 4.375rem;
-    }
-    .biografia{
-        font-size: 1rem;
-    }
-
-    .section-index{
-        gap: 3.125rem;
-    }
-
-    
-}
-
-@media(max-width:986px){
-    
-    .navbar-brand{
-        font-size: 25px;
-    }
-    .nav-item{
-        font-size: 25px;
-
-    }
-}
-
-
-
-@media (max-width:932px) {
-    .orden{
-       gap: 20px;
-        
-    }
-
-    .THE-WEEKND-MENU{
-        margin: 0;
-        left: 30px;
-    }
-    
-    .img-index{
-        width: 18.75rem;
-    }
-}
-
-@media (max-width:868px){
-
-    .header{
-        align-content: flex-end;
-
-    }
-    .orden{
-        align-content: flex-end;
-        
-    }
-
-    .THE-WEEKND-MENU{
-        display: inline;
-        top: 0px;
-        left: 20.25rem;
-        justify-content: center;
-
-}
-}
-
-@media(max-width:370px){
-
-    .navbar-brand{
-        font-size: 1.25rem;
-    }
-}
-
-
-
-
-@media (max-width:860px) {
-
-    .img-index{
-        width: 16.25rem;
-    }
-
-}
-
-@media (max-width:804px){
-    .biografia{
-        font-size: .9375rem;
-    }
-}
-
-@media (max-width:768px){
-
-    .footer-index{
-        height: 3.125rem;
-    }
-    .biografia{
-        margin-top: 1.25rem;
-    }
-
-    .section-index{
-        gap: 1.25rem;
-    }
-
-    
-
-}
-
-@media (max-width:595px) {
-
-    .img-index{
-        width: 220px;
-    }
-    .biografia{
-        width: 200px;
-        font-size: .8125rem;
-    }
-}
-
-@media (max-width:550px) {
-    
-    .navbar-brand{
-        font-size: 20px;
-    }
-    .nav-item{
-        font-size: 18px;
-    }
-
-    .titulo-index{
-
-        text-align: center;
-        margin: 0;
-    }
-    
-
-    .biografia{
-        text-align: center;
-        justify-content: center;
-        margin: 20px;
-        width: 200px;
-    }
-
-    .section-index{
+    margin: 0;
+  }
+  .biografia {
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    width: 200px;
+  }
+  .section-index {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.img-index{
+  }
+  .img-index {
     object-fit: contain;
     margin-right: 1.25rem;
-    padding-bottom: .625rem;
+    padding-bottom: 0.625rem;
     width: 15.625rem;
     height: 18.75rem;
+  }
 }
-}
-
-@media (max-width:474px){
-
-    .THE-WEEKND-MENU{
-        padding-top: 3.125rem;
-        font-size: 20px;
-    
-    }
-
-   .home{
-    font-size: 1.25rem;
-   }
-
-   .tour1{
-    font-size: 1.25rem;
-   }
-   .discografia1{
-    font-size: 1.25rem;
-   }
-
-   .videos1{
+@media (max-width: 474px) {
+  .THE-WEEKND-MENU {
+    padding-top: 3.125rem;
     font-size: 20px;
-
-   }
-
- .contacto1{
+  }
+  .home {
+    font-size: 1.25rem;
+  }
+  .tour1 {
+    font-size: 1.25rem;
+  }
+  .discografia1 {
+    font-size: 1.25rem;
+  }
+  .videos1 {
+    font-size: 20px;
+  }
+  .contacto1 {
     font-size: 1.5625rem;
- }
-
+  }
 }
-
-
-
-
-@media (max-width:425px){
-
-
-    
-
-
-    .navbar{
-        font-size: 1.25rem;
-    }
-
-    .THE-WEEKND-MENU{
-        
-        left: 1.875rem;
-            font-size: 20px;
-            margin: 0;
-        
-    }
-
-    .titulo-index{
-        text-align: center;
-        font-size: 50px;
-        margin: 1.875rem;
-    }
-
-    .biografia{
-        text-align: center;
-        margin: 1.875rem;
-    }
-
-
-    .section-index{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img-index{
-        object-fit: contain;
-        margin-right: 1.25rem;
-        padding-bottom: .625rem;
-        width: 15.625rem;
-        height: 18.75rem;
-    }
-
-    .THE-WEEKND-MENU{
-        position: 30px;
-        
-    }
-
+@media (max-width: 425px) {
+  .navbar {
+    font-size: 1.25rem;
+  }
+  .THE-WEEKND-MENU {
+    left: 1.875rem;
+    font-size: 20px;
+    margin: 0;
+  }
+  .titulo-index {
+    text-align: center;
+    font-size: 50px;
+    margin: 1.875rem;
+  }
+  .biografia {
+    text-align: center;
+    margin: 1.875rem;
+  }
+  .section-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-index {
+    object-fit: contain;
+    margin-right: 1.25rem;
+    padding-bottom: 0.625rem;
+    width: 15.625rem;
+    height: 18.75rem;
+  }
+  .THE-WEEKND-MENU {
+    position: 30px;
+  }
 }
-
-
-@media(max-width:375px){
-    
-    
-    .THE-WEEKND-MENU{
-        
-        padding: 0;
-        margin-top: 50px;
-        margin-right: 40px;       
-        
-        
-        
-        
-    }
+@media (max-width: 375px) {
+  .THE-WEEKND-MENU {
+    padding: 0;
+    margin-top: 50px;
+    margin-right: 40px;
+  }
 }
-
-@media(max-width:320px){
-
-    .THE-WEEKND-MENU{
-        margin: 0;
-        left: 1.875rem;
-        top: 5.3125rem;    
-    }
-
-    .img-index{
-        margin: 0;
-    }
-
+@media (max-width: 320px) {
+  .THE-WEEKND-MENU {
+    margin: 0;
+    left: 1.875rem;
+    top: 5.3125rem;
+  }
+  .img-index {
+    margin: 0;
+  }
 }
-
-@media (max-width:1142px){
-
-    .fechas{
-        gap: 1.25rem;
-    }
-
-
-
+@media (max-width: 1142px) {
+  .fechas {
+    gap: 1.25rem;
+  }
 }
-
-@media(max-width:1025px){
-
-    
-
+@media (max-width: 1024px) {
+  .imagen-tour {
+    padding: 20px;
+    justify-content: center;
+  }
+  .h1-tour {
+    font-size: 70px;
+    padding-left: 6.25rem;
+  }
+  .fechas {
+    gap: 1.25rem;
+  }
 }
-
-@media(max-width:1024px){
-    
-    
-
-    .imagen-tour{
-        
-        padding: 20px;
-        justify-content: center;
-     }
-     .h1-tour{
-         font-size: 70px;
-         padding-left: 6.25rem;
-     }
-     
-     .fechas{
-         gap: 1.25rem;
-     }
-
-
-}
-
-@media(max-width:630px) {
-    .fechas{
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 5rem;
-    }
-
-    
-
-    .navbar-brand{
-        font-size: 1.25rem;
-    }
-    
-    .nav-item{
-        font-size: 18px;
-    }
-
-    .THE-WEEKND-MENU{
-        margin: 0;
-        left: 2.1875rem;
-    }
-
-.h1-tour{
+@media (max-width: 630px) {
+  .fechas {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  .nav-item {
+    font-size: 18px;
+  }
+  .THE-WEEKND-MENU {
+    margin: 0;
+    left: 2.1875rem;
+  }
+  .h1-tour {
     font-size: 3.75rem;
+  }
+}
+@media (max-width: 562px) {
+  .h1-tour {
+    text-align: center;
+    padding: 0%;
+  }
+}
+@media (max-width: 463px) {
+  .img-tour {
+    object-fit: contain;
+    width: auto;
+    height: 200px;
+  }
+  .navbar-brand {
+    font-size: 1.125rem;
+  }
+  .nav-item {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 429px) {
+  .img-tour {
+    height: 200px;
+  }
+}
+@media (max-width: 415px) {
+  .h1-tour {
+    font-size: 3.125rem;
+  }
+  .fechas p {
+    font-size: 1.5625rem;
+  }
+}
+@media (max-width: 899px) {
+  .año {
+    text-align: center;
+  }
+  .discografia-footer {
+    position: relative;
+  }
+  .p-discografia {
+    text-align: center;
+    padding: 0;
+  }
+  .Discos-escuchados {
+    text-align: center;
+    padding: 0;
+  }
+}
+@media (max-width: 639px) {
+  .discografia-h1 {
+    font-size: 5rem;
+  }
+  .p-discografia {
+    font-size: 1.4375rem;
+  }
+  .Discos-escuchados {
+    font-size: 2.25rem;
+  }
+  .año {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 599px) {
+  .discos {
+    gap: 3.75rem;
+  }
+  .discografia-h1 {
+    font-size: 5rem;
+  }
+  .p-discografia {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 515px) {
+  .p-discografia {
+    font-size: 1.125rem;
+  }
+  .discografia-h1 {
+    font-size: 3.75rem;
+  }
+  .Discos-escuchados {
+    font-size: 1.875rem;
+  }
+  .año {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1209px) {
+  .grid {
+    grid-template-columns: repeat(2, 500px);
+  }
+}
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(2, 240px);
+  }
+  .h1-videos {
+    font-size: 80px;
+  }
+  .youtube {
+    font-size: 20px;
+  }
+  .h3-videos {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1015px) {
+  .grid {
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+@media (max-width: 817px) {
+  .grid {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+@media (max-width: 713px) {
+  .grid {
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 160px);
+  }
+}
+@media (max-width: 617px) {
+  .grid {
+    grid-template-columns: repeat(2, 15.625rem);
+    grid-template-rows: repeat(2, 140px);
+  }
+  .youtube {
+    text-align: center;
+  }
+  .h3-videos {
+    text-align: center;
+  }
+}
+@media (max-width: 534px) {
+  .grid {
+    grid-template-columns: repeat(2, 14.375rem);
+    grid-template-rows: repeat(2, 7.5rem);
+  }
+}
+@media (max-width: 488px) {
+  .grid {
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+@media (max-width: 425px) {
+  .grid {
+    grid-template-columns: 300px;
+    grid-template-rows: 150px;
+  }
+  .h1-videos {
+    font-size: 3.125rem;
+  }
+  .h3-videos {
+    font-size: 1.875rem;
+  }
+  .youtube {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+@media (max-width: 320px) {
+  .h3-videos {
+    margin: 0;
+  }
+}
+@media (max-width: 830px) {
+  .contactos {
+    flex-direction: column;
+    padding: 0;
+  }
+  .h1-contacto {
+    text-align: center;
+  }
+  .h1-parrafo {
+    font-size: 24px;
+    text-align: center;
+    padding: 0.625rem;
+  }
+  form.display {
+    align-self: center;
+    width: 21.875rem;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 635px) {
+  form.display {
+    font-size: 1.125rem;
+  }
+  .h1-contacto {
+    font-size: 70px;
+  }
+  .h1-parrafo {
+    font-size: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .h1-parrafo {
+    font-size: 15px;
+  }
+  .h1-contacto {
+    font-size: 50px;
+  }
+  form.display {
+    font-size: 16px;
+    width: 15.625rem;
+  }
 }
 
-
-}
-@media(max-width:562px){
-    .h1-tour{
-        text-align: center;
-        padding: 0%;
-    
-    }
-    
-}
-
-@media(max-width:549px){
-
-    .menu1{
-        font-size: 20px;
-        
-    }
-
-    .home{
-        font-size: 1.25rem;
-       }
-    
-       .tour1{
-        font-size: 1.25rem;
-       }
-       .discografia1{
-        font-size: 1.25rem;
-       }
-    
-       .videos1{
-        font-size: 1.25rem;
-    
-       }
-    
-     .contacto1{
-        font-size: 1.25rem;
-     }
-
-}
-
-@media(max-width:320px){
-
-    header{
-        gap: 1.25rem;
-    }
-}
-
-@media(max-width:914px){
-
-        .fechas{
-            gap: 0px;
-        }
-}
-
-
-@media(max-width:474px){
-
-    .THE-WEEKND-MENU{
-        margin: 0%;
-        top: 2.5rem;
-        
-   
-   
-    }
-    
-    
-    .home{
-        font-size: 1.25rem;
-       }
-    
-       .tour1{
-        font-size: 1.25rem;
-       }
-       .discografia1{
-        font-size: 1.25rem;
-       }
-    
-       .videos1{
-        font-size: 1.25rem;
-    
-       }
-    
-     .contacto1{
-        font-size: 1.25rem;
-     }
-
-
-    }
-
-    @media(max-width:463px){
-
-        .img-tour{
-            object-fit: contain;
-            width: auto;
-            height: 200px;
-            
-            
-        }
-    
-        .navbar-brand{
-            font-size: 1.125rem;
-
-        }
-    
-        .nav-item{
-            font-size: 1rem;
-        }
-    
-    }
-
-@media(max-width:429px){
-
-    .img-tour{
-        
-        height: 200px;
-    }
-}
-
-@media (max-width:415px){
-
-    .h1-tour{
-        font-size: 3.125rem;
-    }
-
-    .fechas p{
-        font-size: 1.5625rem;
-    }
-}
-
-@media (max-width:359px){
-
-    .menu1{
-        font-size: 16px;
-    }   
-}
-
-@media (max-width:339px){
-
-    .menu1{
-        padding: 1px;
-    }
-}
-
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.bg-mio{
-    background-color: #841212;
-}
-
-.body-carr{
-    background-image: url(../assets/img/baclground.jpg);
-    
-    
-
-}
-
-ul{
-    list-style: none;
-}
-
-ul li a{
-    text-decoration: none;
-    color: black;
-}
-footer ul li{
-    display: inline;
-}
-
-header{
-    font-family: "Patua One";
-
-}
-
-@media(max-width:899px){
-    
-    .año{
-        text-align: center;
-    }
-
-    
-
-    .discografia-footer{
-        position: relative;
-    }
-
-    .p-discografia{
-        text-align: center;
-        padding: 0;
-    }   
-
-    .Discos-escuchados{
-        text-align: center;
-        padding: 0;
-    }
-}
-
-@media(max-width:639px){
-
-    .discografia-h1{
-        font-size: 5rem;
-
-    }
-    .p-discografia{
-        font-size: 1.4375rem;
-    }
-
-    .Discos-escuchados{
-        font-size: 2.25rem;
-    }
-
-    .año{
-        font-size: 1.25rem;
-    }
-}
-
-
-@media(max-width:599px){
-
-        .discos{
-            gap: 3.75rem;
-        }
-        .discografia-h1{
-            font-size: 5rem;
-        }
-        .p-discografia{
-            font-size: 1.25rem;
-        }
-    }
-@media(max-width:515px){
-
-    .p-discografia{
-        font-size: 1.125rem;
-    }
-
-    .discografia-h1{
-        font-size: 3.75rem;
-    }
-    .Discos-escuchados{
-        font-size: 1.875rem;
-    }
-    .año{
-        font-size: 1rem;
-    }
-
-}
-
-@media(max-width:1203px){
-
-    .grid{
-        grid-template-columns: repeat(2,500px);
-    }
-}
-
-@media(max-width:1024px){
-    .grid{
-        grid-template-columns: repeat(2,450px);
-        grid-template-rows: repeat(2,240px);
-    }
-    
-}
-
-@media(max-width:1015px){
-
-    .grid{
-        grid-template-columns: repeat(2,400px);
-        grid-template-rows: repeat(2,200px);
-    }
-
-}
-
-@media(max-width:817px){
-
-    .grid{
-        grid-template-columns: repeat(2,350px);
-    }
-}
-
-@media(max-width:713px){
-
-    .grid{
-        grid-template-columns: repeat(2, 300px);
-        grid-template-rows: repeat(2,160px);
-    }
-}
-
-@media(max-width:617px){
-
-    .grid{
-
-        grid-template-columns: repeat(2,15.625rem);
-        grid-template-rows: repeat(2,140px);
-    }
-}
-
-@media(max-width:512px){}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,42 @@
+.contactos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    gap: 30px;
+    
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 20px;
+    gap: 10px;
+    color: white;
+    
+}
+
+.boton{
+    width: 100px;
+    align-self: center;
+}
+
+.formulñario{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.telefono{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+input:focus{
+    background-color: #841212;
+}
+input::placeholder{
+    color: black;
+}

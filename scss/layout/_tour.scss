@@ -1,0 +1,43 @@
+.img-tour{
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+    object-fit: contain;
+    height: 300px;
+    
+    .h1-tour{
+
+        text-align: left;
+        font-size: 5rem;
+        padding-left: 6.25rem;
+    }    
+
+    
+    
+
+}
+
+.fechas{
+    @include flex1;
+    
+}
+
+
+button{
+    padding: 30px;
+    bottom: 230px;
+    width: 150px;
+    color: black;
+    font-family:"Patua One", serif;
+    background-color: #841212;
+    object-fit: contain;
+
+    button:active{
+        background-color: blue;
+    }
+}
+
+.tour-foote{
+    bottom: 0%;
+    width: 100%;
+}

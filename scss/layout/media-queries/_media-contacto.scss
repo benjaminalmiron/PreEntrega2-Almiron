@@ -1,0 +1,56 @@
+@media(max-width:830px){
+    .contactos{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .h1-contacto{
+        text-align: center;
+    }
+
+    .h1-parrafo{
+        font-size: 24px;
+        text-align: center;
+        padding: .625rem;
+    }
+
+    form.display{
+        align-self: center;
+        width: 21.875rem;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:635px){
+
+    
+
+    form.display{
+        font-size: 1.125rem;
+    }
+
+    .h1-contacto{
+        font-size: 70px;
+    }
+
+    .h1-parrafo{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:375px){
+
+    .h1-parrafo{
+        font-size: 15px;
+    }
+
+    .h1-contacto{
+        font-size: 50px;
+    }
+
+    form.display{
+        font-size: 16px;
+        width: 15.625rem;
+    }
+    
+}

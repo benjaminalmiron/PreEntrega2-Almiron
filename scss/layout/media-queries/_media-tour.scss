@@ -1,0 +1,111 @@
+@media (max-width:1142px){
+
+    .fechas{
+        gap: 1.25rem;
+    }
+
+
+
+}
+
+@media(max-width:1025px){
+
+    
+
+}
+
+@media(max-width:1024px){
+    
+    
+
+    .imagen-tour{
+        
+        padding: 20px;
+        justify-content: center;
+     }
+     .h1-tour{
+         font-size: 70px;
+         padding-left: 6.25rem;
+     }
+     
+     .fechas{
+         gap: 1.25rem;
+     }
+
+
+}
+
+@media(max-width:630px){
+    .fechas{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+
+    
+
+    .navbar-brand{
+        font-size: 1.25rem;
+    }
+    
+    .nav-item{
+        font-size: 18px;
+    }
+
+    .THE-WEEKND-MENU{
+        margin: 0;
+        left: 2.1875rem;
+    }
+
+.h1-tour{
+    font-size: 3.75rem;
+}
+
+
+}
+@media(max-width:562px){
+    .h1-tour{
+        text-align: center;
+        padding: 0%;
+    
+    }
+    
+}
+@media(max-width:463px){
+
+    .img-tour{
+        object-fit: contain;
+        width: auto;
+        height: 200px;
+        
+        
+    }
+
+    .navbar-brand{
+        font-size: 1.125rem;
+
+    }
+
+    .nav-item{
+        font-size: 1rem;
+    }
+
+}
+@media(max-width:429px){
+
+    .img-tour{
+        
+        height: 200px;
+    }
+}
+
+@media (max-width:415px){
+
+    .h1-tour{
+        font-size: 3.125rem;
+    }
+
+    .fechas p{
+        font-size: 1.5625rem;
+    }
+}

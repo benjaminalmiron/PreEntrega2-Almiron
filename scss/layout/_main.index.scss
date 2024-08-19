@@ -1,0 +1,48 @@
+main section h3{
+    color: #A5A5A5;
+    font-size: 1.5625rem;
+    font-family: "Patrick Hand", cursive;
+    font-size: 1.875rem;
+}
+main section p{
+    font-size: 2rem;
+    text-align:left;
+    color: white;
+    font-family: "Patua One";
+    font-weight: lighter ;
+    
+}
+main section h1{
+    color: #A5A5A5;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Patrick Hand", cursive;
+    font-size: 6.25rem;
+}
+
+.titulo-index{
+    font-family: "Patrick Hand", cursive serif;;
+    margin-left: 6.25rem;
+    margin-top: 1.875rem;
+    
+}
+
+.section-index{
+    @include flex;
+}
+
+.biografia{
+    text-align: left;
+    font-size: 1.25rem;
+    margin-left: 6.25rem;
+    margin-top: 45px;    
+    }
+
+.img-index{
+    width: 21.875rem;
+    height:  39.5rem;
+    margin-right: 6.25rem;
+    margin-top: 2.5rem ;
+    object-fit: contain;
+        
+    }
