@@ -5,12 +5,7 @@
     object-fit: contain;
     height: 300px;
     
-    .h1-tour{
-
-        text-align: left;
-        font-size: 5rem;
-        padding-left: 6.25rem;
-    }    
+    
 
     
     
@@ -21,7 +16,12 @@
     @include flex1;
     
 }
+h1-tour{
 
+    text-align: left;
+    font-size: 5rem;
+    padding-left: 6.25rem;
+}    
 
 button{
     padding: 30px;

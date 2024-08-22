@@ -123,16 +123,17 @@ footer ul li {
   object-fit: contain;
   height: 300px;
 }
-.img-tour .h1-tour {
-  text-align: left;
-  font-size: 5rem;
-  padding-left: 6.25rem;
-}
 
 .fechas {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+h1-tour {
+  text-align: left;
+  font-size: 5rem;
+  padding-left: 6.25rem;
 }
 
 button {
