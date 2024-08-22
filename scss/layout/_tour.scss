@@ -29,7 +29,7 @@ button{
     width: 150px;
     color: black;
     font-family:"Patua One", serif;
-    background-color: #841212;
+    background-color: $color-background;
     object-fit: contain;
 
     button:active{

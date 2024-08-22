@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patua+One&display=swap');
 
 
-$color-fondo: #841212;
+$color-background: #841212;
+$color-sub: #A5A5A5;
 
 @import "./utilities/mixin";
 @import "./layout/header-nav";
@@ -18,4 +19,6 @@ $color-fondo: #841212;
 @import "./layout/media-queries/media-tour";
 @import "./layout/media-queries/media-discografia";
 @import "./layout/media-queries/media-videos";
-@import "./layout/media-queries/media-contacto"
+@import "./layout/media-queries/media-contacto";
+
+@import "./components/animaciones"

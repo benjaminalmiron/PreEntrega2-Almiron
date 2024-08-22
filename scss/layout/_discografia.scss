@@ -15,7 +15,9 @@
     object-fit: contain;
     flex-wrap: wrap ;
     
-    
+    .año{
+        text-align: center;
+    }
 
 }
 
@@ -24,13 +26,8 @@
     padding-left: 6.25rem;
 }
 
-.año{
-    text-align: center;
-}
 
-.Discografia{
-    font-size: 1.875rem;
-}
+
 
 .discografia-footer{
     bottom: 0;

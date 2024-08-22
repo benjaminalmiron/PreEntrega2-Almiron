@@ -51,13 +51,13 @@ body header nav ul li {
   font-size: 1.875rem;
 }
 
-main section h3 {
+main section h1 {
   color: #A5A5A5;
-  font-size: 1.5625rem;
+  text-align: left;
+  text-transform: uppercase;
   font-family: "Patrick Hand", cursive;
-  font-size: 1.875rem;
+  font-size: 6.25rem;
 }
-
 main section p {
   font-size: 2rem;
   text-align: left;
@@ -65,13 +65,11 @@ main section p {
   font-family: "Patua One";
   font-weight: lighter;
 }
-
-main section h1 {
+main section h3 {
   color: #A5A5A5;
-  text-align: left;
-  text-transform: uppercase;
+  font-size: 1.5625rem;
   font-family: "Patrick Hand", cursive;
-  font-size: 6.25rem;
+  font-size: 1.875rem;
 }
 
 .titulo-index {
@@ -106,10 +104,6 @@ main section h1 {
   bottom: 0;
 }
 
-footer ul li {
-  display: inline;
-}
-
 footer {
   background-color: #841212;
   height: 4.6875rem;
@@ -117,6 +111,9 @@ footer {
   align-items: center;
   justify-content: center;
   position: fixed;
+}
+footer ul li {
+  display: inline;
 }
 
 .img-tour {
@@ -172,18 +169,13 @@ button button:active {
   object-fit: contain;
   flex-wrap: wrap;
 }
+.discos .año {
+  text-align: center;
+}
 
 .Discos-escuchados {
   font-size: 2.5rem;
   padding-left: 6.25rem;
-}
-
-.año {
-  text-align: center;
-}
-
-.Discografia {
-  font-size: 1.875rem;
 }
 
 .discografia-footer {
